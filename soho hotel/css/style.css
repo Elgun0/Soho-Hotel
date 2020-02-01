@@ -1,0 +1,128 @@
+nav {
+  position: fixed;
+}
+
+#nav1 {
+  border-bottom: 1px solid #ddd;
+}
+
+#nav1 .left {
+  margin-top: 5px;
+}
+
+#nav1 .left li {
+  padding: 0 10px;
+}
+
+#nav1 .left li i {
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #b99470;
+  padding: 10px;
+  color: #fff;
+}
+
+#nav1 .left li .i-2 {
+  padding: 10px 12px;
+}
+
+#nav1 .right span {
+  margin-right: 10px;
+}
+
+#nav1 .right button {
+  border: none;
+  padding: 16px 10px;
+  background-color: #b99470;
+  color: #fff;
+}
+
+#nav2 {
+  padding: 20px 0;
+}
+
+#nav2 h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+#nav2 ul {
+  padding-top: 10px;
+}
+
+#nav2 ul > li {
+  padding: 0 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+#nav2 ul > li:hover .menu {
+  display: block;
+}
+
+#nav2 ul > li .menu {
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  display: none;
+  z-index: 10;
+}
+
+#nav2 ul > li .menu li {
+  -webkit-transition: .2s;
+  transition: .2s;
+  padding: 10px 20px;
+}
+
+#nav2 ul > li .menu li:hover {
+  background-color: #b99470;
+}
+
+#main {
+  height: 80vh;
+  background: url(../photo/slider2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#main .text {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #fff;
+}
+
+#main .text h1 {
+  font-size: 70px;
+}
+
+#main .text .line {
+  border: 1px solid #b99470;
+  width: 80px;
+  margin: 20px 0;
+}
+
+#main .text p {
+  line-height: 1.8;
+}
+
+#main .text button {
+  padding: 15px 20px;
+  background-color: #b99470;
+  border: none;
+  color: #fff;
+}
+
+#main .text button i {
+  margin-left: 5px;
+}
+
+#check {
+  height: 50vh;
+}
+/*# sourceMappingURL=style.css.map */

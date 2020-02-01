@@ -1,0 +1,111 @@
+nav{
+    position: fixed;
+}
+#nav1{
+    border-bottom: 1px solid #ddd;
+    .left{
+        margin-top: 5px;
+        li{
+            padding: 0 10px;
+            i{
+                margin-right: 5px;
+                border-radius: 50%;
+                background-color: #b99470;
+                padding: 10px;
+                color: #fff;
+            }
+            .i-2{
+                padding: 10px 12px;
+            }
+        }
+    }
+    .right{
+        span{
+            margin-right: 10px;
+        }
+        button{
+            border: none;
+            padding: 16px 10px;
+            background-color: #b99470;
+            color: #fff;
+        }
+    }
+}
+#nav2{
+    h1{
+        font-family: 'Playfair Display', serif;
+    }
+    padding: 20px 0;
+    ul{
+        padding-top: 10px;
+        >li{
+            padding: 0 18px;
+            position: relative;
+            cursor: pointer;
+            &:hover{
+                .menu{
+                    display: block;
+                }
+            }
+            .menu{
+                position: absolute;
+                width: 200px;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                display: none;
+                z-index: 10;
+                li{
+                    transition: .2s;
+                    padding: 10px 20px;
+                    &:hover{
+                        background-color: #b99470;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Nav end
+
+#main{
+    height: 80vh;
+    background: url(../photo/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .text{
+        font-family: 'Playfair Display', serif;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        transform: translate(-50%);
+        color: #fff;
+        h1{
+            font-size: 70px;
+        }
+        .line{
+            border: 1px solid #b99470;
+            width: 80px;
+            margin: 20px 0;
+        }
+        p{
+            line-height: 1.8;
+        }
+        button{
+            padding: 15px 20px;
+            background-color: #b99470;
+            border: none;
+            color: #fff;
+            i{
+                margin-left: 5px;
+            }
+        }
+    }
+}
+// Main end
+#check{
+    height: 50vh;
+    input{}
+}
